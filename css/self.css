@@ -1,0 +1,159 @@
+.scroll-menu {
+    font-size: 18px;
+    font-family: "微軟正黑體" !important;
+}
+
+.activity-info {
+    width: 100%;
+    position: relative;
+    font-family: 微軟正黑體;
+}
+
+.activity-info .left-partition {
+    float: left;
+    /*width: 75%;*/
+}
+
+.activity-info .title {
+    font-size: 25px;
+    padding-left: 35px;
+    background-size: 25px;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/info.png);
+}
+
+.activity-info ul {
+    list-style: none;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.activity-info .right-partition {
+    float: right;
+    text-align: center;
+    /*width: 25%;*/
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url(../img/robot.png);*/
+}
+
+.activity-info .right-partition img {
+    top: 80px;
+    position: relative;
+    /*transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);*/
+}
+
+@media(max-width:768px) {
+    .activity-info .right-partition img {
+        display: none;
+    }
+}
+
+#robot .gallery {
+    width: 250px;
+    height: 250px;
+    margin: 0px auto;
+    margin-bottom: 25px;
+    position: relative;
+    border-radius: 250px;
+    text-align: center;
+    background-color: #87dfff;
+}
+
+#robot .gallery img {
+    position: relative;
+}
+
+#contact {
+    height: 600px;
+    position: relative;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: 微軟正黑體;
+    /*color: #fed136;*/
+}
+
+#contact .school {
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    max-height: 500px;
+    max-width: 360px;
+
+
+    width: 36vw;
+    height: 50vw;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    background-image: url(../img/map.png);
+    transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+#contact #map {
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.staff {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid #FFF;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.staff1 {
+    background-image: url(../img/1.jpg);
+}
+
+.staff2 {
+    background-image: url(../img/2.jpg);
+}
+
+.staff3 {
+    background-image: url(../img/3.jpg);
+}
+
+.staff4 {
+    background-image: url(../img/4.jpg);
+}
+
+.staff5 {
+    background-image: url(../img/5.jpg);
+}
+
+.staff6 {
+    background-image: url(../img/6.jpg);
+}
+
+
+
+
+.text_indentation{
+    margin-left: 2.6rem;
+}
+
+.text_indentation2{
+    margin-left: 2.3rem;
+}
