@@ -73,7 +73,7 @@ ngapp.controller('controller', ['$scope', '$http', function($scope, $http) {
 		"12:00~13:15",
 		"13:15~16:15",
 		"16:30~17:30",
-		""
+		
 		];
 
     	var item = [
