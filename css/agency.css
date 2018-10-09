@@ -338,7 +338,7 @@ header {
     position: relative;
     background-attachment: scroll;
     /*background-image: url(../img/header-bg.jpg);*/
-    background-image: url(../img/ev3.jpg);
+    background-image: url(../img/lego3.jpg);
     background-position: center center;
     background-repeat: none;
     background-attachment: fixed;
@@ -399,11 +399,11 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        // font-size: 70px;
-        // font-size: 60px;
+        /* // font-size: 70px; */
+        /* // font-size: 60px; */
         font-size: 60px;
         font-size: 5vw;
-        // font-size: 5rem;
+        /* // font-size: 5rem; */
         font-weight: 700;
         line-height: 60px;
     }
