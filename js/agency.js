@@ -26,8 +26,9 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 // console message
-function log() {
-  setTimeout(console.log.bind(console, "%cA colorful log %c Another content", "background: #3F51B5;color:#FFF;padding:5px;border-radius: 5px;line-height: 26px;", ""));
-  console.log("A simple console.log message");
-}log();
+function log() {setTimeout(console.log.bind(console, "%c認真看比賽規則啦！！看我幹嗎？", "background: #3F51B5;
+                              color:#FFF;
+                              padding:5px;
+                              border-radius: 5px;
+                              line-height: 26px;"));}log();
 
